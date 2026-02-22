@@ -9,6 +9,5 @@ for i in slovo:
     if i in ascii_uppercase: res.append(ascii_uppercase[(ascii_uppercase.index(i) + sdvig) % 26])
     if i in rus_uppercase:res.append(rus_uppercase[(rus_uppercase.index(i)+sdvig)%26])
     if i in rus_lowercase: res.append(rus_lowercase[(rus_lowercase.index(i) + sdvig) % 26])
-    if i in digits: res.append(digits[(digits.index(i) + sdvig) % 10])
+    if i in digits: res.append(digits[(digits.index(i) + sdvig)])
 print(''.join(res))
-
