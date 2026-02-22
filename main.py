@@ -1,10 +1,8 @@
 from string import*
 a=[]
 s=ascii_lowercase+'a'
-print('введите слово')
-q=str(input())
-print('введите число сдвига')
-y=int(input())
+q=str(input('введите слово'))
+y=int(input('введите число сдвига'))
 
 b=[]
 for i in q:

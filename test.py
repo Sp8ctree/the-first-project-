@@ -16,3 +16,5 @@ for x in b:
     a.append(s[x])#выводит сдвинутые буквы
 print(q,'-ваше слово')
 print(''.join(str(t)for t in a),'-закодированное слово')
+
+
